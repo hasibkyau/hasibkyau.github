@@ -37,7 +37,7 @@ body{
 	
 }
 .header{
-	background: url("../images/banner.jpg") no-repeat center top;
+	background: linear-gradient(to right, rgba(24, 24, 24, 0.5), rgb(24, 24, 24, 0.5)), url("../images/banner.jpg") no-repeat center top;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;

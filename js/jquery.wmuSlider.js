@@ -52,6 +52,7 @@
                 isAnimating = true;
                 currentIndex = index;
                 var slide = $(slides[index]);
+                
                 $this.animate({ height: slide.innerHeight() });
                 if (options.animation == 'fade') {
                     slides.css({
